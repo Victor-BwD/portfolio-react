@@ -1,0 +1,45 @@
+.footer-container div{
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    align-content: space-around ;
+    margin: auto;
+}
+
+.social {
+    padding-top: 2rem;
+    padding-left: 4rem;
+}
+
+.footer {
+    width: 100%;
+    padding: 6rem 0;
+    background-color: rgba(19, 19, 19, 0.8);
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 840px) {
+    .footer-container div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+
+    .location div {
+        padding-left: 10px;
+        margin: auto;
+    }
+
+    .location .FaHome {
+        margin-bottom: 0.5rem;
+    }
+
+    .social {
+        padding-left: 2rem;
+    }
+}
