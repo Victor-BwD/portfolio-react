@@ -1,4 +1,4 @@
-import pro1 from "../../assets/Photo.jpg"
+import pro1 from "../../assets/Doomed.png"
 import pro2 from "../../assets/Photo.jpg"
 import pro3 from "../../assets/Photo.jpg"
 

@@ -32,7 +32,7 @@ export const Footer = () => {
                 <div className="social">
                     <FaFacebook size={30} style={{color:"#fff", marginRight: "2rem", marginBottom:"10px"}} />
                     <FaLinkedin size={30} style={{color:"#fff", marginRight: "2rem", marginBottom:"10px"}} />
-                    <FaGithub size={30} style={{color:"#fff", marginRight: "2rem"}} />
+                    <FaGithub size={30} style={{color:"#fff", marginRight: "2rem", marginBottom:"10px"}} />
                 </div>
 
             </div>
