@@ -10,7 +10,8 @@ export const AboutContent = () => {
     <div className="about">
         <div className="left">
             <h1>A little about me</h1>
-            <p>I'm a person who decides to make his love for technology his livelihood.</p>
+            <p>I'm a person who decides to make his love for technology his livelihood. <br /> <br /> I study digital games at college, 
+                I'm self-taught and I'm always looking to learn more and more about the world of technology and the world as it is.</p>
             <Link to="/contact">
                 <button className="btn">Contact</button>
             </Link>
