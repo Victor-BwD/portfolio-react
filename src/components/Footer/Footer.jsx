@@ -1,7 +1,7 @@
 import "./style.css";
 
 import React from 'react'
-import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaLinkedinIn, FaMailBulk, FaPhone } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk, FaPhone } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -30,9 +30,17 @@ export const Footer = () => {
             </div>
             <div className="below-info">
                 <div className="social">
-                    <FaFacebook size={30} style={{color:"#fff", marginRight: "2rem", marginBottom:"10px"}} />
-                    <FaLinkedin size={30} style={{color:"#fff", marginRight: "2rem", marginBottom:"10px"}} />
-                    <FaGithub size={30} style={{color:"#fff", marginRight: "2rem", marginBottom:"10px"}} />
+                    <a href="https://www.facebook.com/victor.bogdanowdornelles" target="_blank" rel="noopener noreferrer">
+                        <FaFacebook size={30} style={{color:"#fff", marginRight: "2rem", marginBottom:"10px"}} />
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/victorbwd/" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin size={30} style={{color:"#fff", marginRight: "2rem", marginBottom:"10px"}} />
+                    </a>
+                    
+                    <a href="https://github.com/Victor-BwD" target="_blank" rel="noopener noreferrer">
+                        <FaGithub size={30} style={{color:"#fff", marginRight: "2rem", marginBottom:"10px"}} />
+                    </a>
                 </div>
 
             </div>
