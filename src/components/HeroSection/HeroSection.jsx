@@ -10,7 +10,7 @@ export const HeroSection = () => {
   return (
     <div className="hero">
         <div className="mask">
-            <img className="intro-image" src={IntoImage} alt="Intro Image"></img>
+            <img className="intro-image" src={IntoImage} alt="Intro img"></img>
         </div>
         <div className="content">
             <img className="intro-photo" src={Photo} alt="Victor"></img>
@@ -18,7 +18,7 @@ export const HeroSection = () => {
             <h1>Game and Web Developer</h1>
             <div>
                 <Link to="/project" className="btn">Projects</Link>
-                <Link to="/contact" className="btn btn-light">Contact</Link>
+                <a href="https://wa.me/5551986537959" target="_blank" rel="noopener noreferrer" className="btn btn-light">Contact</a>
             </div>
         </div>
     </div>

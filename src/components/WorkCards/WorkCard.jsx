@@ -1,18 +1,17 @@
 import "./style.css";
 
 import React from 'react'
-import { NavLink } from "react-router-dom";
 
 export const WorkCard = (props) => {
   return (
         <div className="project-card">
-            <img src={props.imgsrc} alt="image"></img>
+            <img src={props.imgsrc} alt="project img"></img>
             <h2 className="project-title">{props.title}</h2>
             <div className="project-details">
                 <p>{props.text}</p>
                 <div className="project-btns">
-                    <NavLink to={props.view} className="btn">View</NavLink>
-                    <NavLink to="url.com" className="btn">Source</NavLink>
+                    <a href={props.view} target="_blank" rel="noopener noreferrer" className="btn">View</a>
+                    <a href={props.source} target="_blank" rel="noopener noreferrer" className="btn">Source</a>
                 </div>
             </div>
         </div>

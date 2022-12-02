@@ -37,7 +37,7 @@ export const Navbar = () => {
                 <Link to="/about">About</Link>
             </li>
             <li>
-                <Link to="/contact">Contact</Link>
+                <a href="https://wa.me/5551986537959" target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>
