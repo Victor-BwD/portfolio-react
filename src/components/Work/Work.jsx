@@ -17,6 +17,7 @@ export const Work = () => {
                     title={value.title}
                     text={value.text}
                     view={value.view} 
+                    source={value.source}
                     />
                 )
             })}
