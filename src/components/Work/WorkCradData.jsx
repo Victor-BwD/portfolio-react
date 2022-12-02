@@ -2,6 +2,7 @@ import pro1 from "../../assets/Doomed.png"
 import pro2 from "../../assets/netflixlogo.png"
 import pro3 from "../../assets/jogo.PNG"
 
+
 const ProjectCardData = [
     {
         imgsrc: pro1,
