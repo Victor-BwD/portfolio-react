@@ -1,15 +1,15 @@
 import "../WorkCards/style.css";
 import { WorkCard } from "../WorkCards/WorkCard";
-import WorkCardData from "./WorkCradData"
+import TopProjectData from "./TopProjectsData"
 
 import React from 'react'
 
-export const Work = () => {
+export const TopProjects = () => {
   return (
     <div className="work-container">
-        <h1 className="project-heading">All relevant projects</h1>
+        <h1 className="project-heading">My top 3 projects</h1>
         <div className="project-container">
-            {WorkCardData.map((value, index) => {
+            {TopProjectData.map((value, index) => {
                 return (
                     <WorkCard
                     key={index}
