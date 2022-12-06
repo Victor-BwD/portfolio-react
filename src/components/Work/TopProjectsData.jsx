@@ -1,5 +1,5 @@
 import pro1 from "../../assets/Doomed.png"
-import pro2 from "../../assets/netflixlogo.png"
+import pro2 from "../../assets/Space-invaders.png"
 import pro3 from "../../assets/jogo.PNG"
 
 
@@ -13,10 +13,10 @@ const TopProjectData = [
     },
     {
         imgsrc: pro2,
-        title: "Netflix Clone",
-        text: "A clone of the Netflix main screen made in React using The Movie Database API.",
-        view: "https://netflix-clone-ashy-ten.vercel.app",
-        source: "https://github.com/Victor-BwD/Netflix_Clone"
+        title: "Space Invaders",
+        text: "The classic Space Invaders recreated with Unity.",
+        view: "https://victor-bwd.itch.io/space-invaders-unity",
+        source: "https://github.com/Victor-BwD/Space_Invaders_Unity"
     },
     {
         imgsrc: pro3,
