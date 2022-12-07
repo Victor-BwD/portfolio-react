@@ -31,6 +31,10 @@
     display: none;
 }
 
+.whats-button:hover{
+    color: #25D366;
+}
+
 @media screen and (max-width: 1040px){
     .nav-menu{
         flex-direction: column;

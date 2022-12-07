@@ -39,6 +39,7 @@
 .hero .content img{
     border-radius: 50%;
     border: 5px solid #cfd8dc;
+    animation: pulse 1s linear infinite;
 }
 
 .hero .content p {
@@ -56,6 +57,21 @@
 .content .btn{
     margin: 1rem 0.2rem;
 }
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+       -webkit-transform: scale(0.99);
+       transform: scale(0.99);
+    }
+    100% {
+        -webkit-transform: scale(1);
+       transform: scale(1);
+    }
+    }
 
 @media screen and (max-width: 640px) {
     .hero .content img{
