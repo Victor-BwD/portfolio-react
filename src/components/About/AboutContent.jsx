@@ -51,6 +51,9 @@ export const AboutContent = () => {
                 <div className="img-stack bottom">
                     <img src={ReactImage} alt="Unity" className="img" />
                 </div>
+                <div className="img-stack img-right">
+                    <img src="https://developers.redhat.com/sites/default/files/styles/article_feature/public/blog/2021/03/2021_C9_top-level_programs_target-typed_Featured_article_image_A-01.png?itok=hN4XnLJr" alt="C#" className="img" />
+                </div>
             </div>
         </div>
     </div>

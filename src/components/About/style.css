@@ -49,6 +49,13 @@
     z-index: 5;
 }
 
+.right .img-right {
+    grid-column: 3 / span 8;
+    grid-row: 1;
+    padding-top: 100%;
+    z-index: 6;
+}
+
 .sub-title-skills {
     color: white;
 }
