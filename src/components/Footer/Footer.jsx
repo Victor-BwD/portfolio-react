@@ -12,7 +12,7 @@ export const Footer = () => {
                 <div className="location">
                     <FaHome className="FaHome" size={20} style={{color: "white", marginLeft: "1rem", marginRight:"1rem"}}/>
                     <div>
-                        <p>Taquara, Rio Grande do Sul, &nbsp;</p>
+                        <p>Rio Grande do Sul, &nbsp;</p>
                         <p>Brazil</p>
                     </div>
                 </div>
